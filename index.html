@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Goal | Awareness & Action</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .nav-link.active { color: #059669; border-bottom: 2px solid #059669; }
+        .gradient-bg { background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="w-[8rem] h-8 bg-none-600 rounded-lg flex items-center justify-center">
+                <img src="logo.png" alt="icon" class="w-50 h-50 rounded" />
+                </div>
+               
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-wider">
+                <a href="#" onclick="showSection('home')" class="nav-link active py-2 transition-all">Home</a>
+                <a href="#" onclick="showSection('mission')" class="nav-link py-2 transition-all">Our Mission</a>
+                <a href="#" onclick="showSection('support')" class="nav-link py-2 transition-all">Support</a>
+                <a href="#" onclick="showSection('legal')" class="nav-link py-2 transition-all">Legal</a>
+            </div>
+            <button onclick="showSection('support')" class="bg-emerald-600 text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-emerald-700 transition shadow-lg shadow-emerald-200">Join Us</button>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+        
+        <section id="home" class="tab-content active animate-in fade-in duration-700">
+            <div class="text-center py-16">
+                <span class="bg-emerald-100 text-emerald-700 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">Official Awareness Platform</span>
+                <h1 class="text-5xl md:text-7xl font-extrabold mt-6 mb-8 tracking-tight text-slate-900">
+                    One Vision. <span class="text-emerald-600">One Bharat.</span>
+                </h1>
+                <p class="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+                    Advocating for digital equity, sustainable infrastructure, and educational reform to meet the 2030 National Development Goals.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-20">
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm border border-slate-100">
+                    <div class="text-3xl font-bold text-emerald-600">1.4B+</div>
+                    <div class="text-xs text-slate-400 uppercase mt-1">Lives Impacted</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm border border-slate-100">
+                    <div class="text-3xl font-bold text-emerald-600">28</div>
+                    <div class="text-xs text-slate-400 uppercase mt-1">States Active</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm border border-slate-100">
+                    <div class="text-3xl font-bold text-emerald-600">500+</div>
+                    <div class="text-xs text-slate-400 uppercase mt-1">Partners</div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl text-center shadow-sm border border-slate-100">
+                    <div class="text-3xl font-bold text-emerald-600">2030</div>
+                    <div class="text-xs text-slate-400 uppercase mt-1">Target Year</div>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h2 class="text-3xl font-bold mb-8">Our Core Pillars</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="group p-8 bg-white rounded-3xl border border-slate-100 hover:border-emerald-200 hover:shadow-xl transition-all">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-emerald-600 transition-colors">
+                            <svg class="w-6 h-6 text-emerald-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Digital Literacy</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Ensuring every citizen has the tools and knowledge to thrive in the modern digital economy.</p>
+                    </div>
+                    <div class="group p-8 bg-white rounded-3xl border border-slate-100 hover:border-emerald-200 hover:shadow-xl transition-all">
+                        <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
+                            <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Green Energy</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Promoting sustainable energy solutions to protect our environment for future generations.</p>
+                    </div>
+                    <div class="group p-8 bg-white rounded-3xl border border-slate-100 hover:border-emerald-200 hover:shadow-xl transition-all">
+                        <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-orange-600 transition-colors">
+                            <svg class="w-6 h-6 text-orange-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Skill Development</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Vocational training programs designed to empower the youth in rural and urban areas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="tab-content space-y-12">
+            <h2 class="text-4xl font-bold">Our Roadmap</h2>
+            <div class="border-l-4 border-emerald-100 ml-4 space-y-12">
+                <div class="relative pl-10">
+                    <div class="absolute -left-[14px] top-0 w-6 h-6 bg-emerald-600 rounded-full ring-4 ring-emerald-50"></div>
+                    <h3 class="font-bold text-xl">Phase 1: Awareness (2024-2025)</h3>
+                    <p class="text-slate-600 mt-2">Launching pan-India digital campaigns to educate citizens about sustainable development goals.</p>
+                </div>
+                <div class="relative pl-10">
+                    <div class="absolute -left-[14px] top-0 w-6 h-6 bg-slate-200 rounded-full"></div>
+                    <h3 class="font-bold text-xl text-slate-400">Phase 2: Implementation (2026-2027)</h3>
+                    <p class="text-slate-400 mt-2">Partnering with local NGOs to execute ground-level training and green energy workshops.</p>
+                </div>
+            </div>
+
+            <div class="mt-20">
+                <h3 class="text-2xl font-bold mb-6">Frequently Asked Questions</h3>
+                <div class="space-y-4">
+                    <details class="bg-white p-4 rounded-xl border border-slate-100 group">
+                        <summary class="font-semibold cursor-pointer list-none flex justify-between">
+                            What is the primary goal of Bharat Goal?
+                            <span class="text-emerald-600 group-open:rotate-180 transition-transform">↓</span>
+                        </summary>
+                        <p class="text-slate-500 text-sm mt-3">We aim to create a centralized awareness hub that connects citizens with national development initiatives and sustainable practices.</p>
+                    </details>
+                    <details class="bg-white p-4 rounded-xl border border-slate-100 group">
+                        <summary class="font-semibold cursor-pointer list-none flex justify-between">
+                            How can I contribute?
+                            <span class="text-emerald-600 group-open:rotate-180 transition-transform">↓</span>
+                        </summary>
+                        <p class="text-slate-500 text-sm mt-3">You can contribute by sharing our awareness content, volunteering for local chapters, or participating in our skill-building webinars.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="tab-content">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Get in Touch</h2>
+                    <p class="text-slate-600 mb-8">Have a question about our initiatives or want to report an issue? Our support team is available 24/7.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center text-emerald-600 font-bold">@</div>
+                            <span class="text-sm font-medium">support@bharatgoal.org</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100">
+                    <div class="space-y-4">
+                        <input type="text" placeholder="Full Name" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition">
+                        <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-emerald-500 outline-none transition">
+                        <select class="w-full px-4 py-3 rounded-xl border border-slate-200 outline-none">
+                            <option>General Inquiry</option>
+                            <option>Partnership</option>
+                            <option>Volunteering</option>
+                        </select>
+                        <textarea placeholder="Your Message" class="w-full px-4 py-3 rounded-xl border border-slate-200 h-32 outline-none focus:ring-2 focus:ring-emerald-500 transition"></textarea>
+                        <button type="button" class="w-full bg-slate-900 text-white py-4 rounded-xl font-bold hover:bg-slate-800 transition">Submit Request</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="legal" class="tab-content">
+            <div class="space-y-16">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Privacy Policy</h2>
+                    <div class="bg-white p-8 rounded-3xl border border-slate-100 prose prose-slate max-w-none text-sm leading-relaxed text-slate-600">
+                        <p class="mb-4"><strong>Effective Date:</strong> February 12, 2026</p>
+                        <p class="mb-4">At Bharat Goal, we prioritize your privacy. This policy outlines how we handle information:</p>
+                        <ul class="list-disc ml-6 space-y-2">
+                            <li><strong>Information Collection:</strong> We only collect information provided voluntarily via our support form (Name, Email).</li>
+                            <li><strong>Data Usage:</strong> Your data is used exclusively to respond to your inquiries. We do not use your data for automated marketing without consent.</li>
+                            <li><strong>Third-Party Sharing:</strong> We do not sell, trade, or transfer your personal data to outside parties, adhering strictly to Meta's User Data Policies.</li>
+                            <li><strong>Security:</strong> We implement industry-standard encryption to protect your information online.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Terms of Service</h2>
+                    <div class="bg-white p-8 rounded-3xl border border-slate-100 prose prose-slate max-w-none text-sm leading-relaxed text-slate-600">
+                        <p class="mb-4">By using this website, you agree to the following terms:</p>
+                        <ul class="list-disc ml-6 space-y-2">
+                            <li><strong>Acceptable Use:</strong> Users must use this platform for lawful awareness purposes. Harassment or misinformation is strictly prohibited.</li>
+                            <li><strong>Intellectual Property:</strong> All logos and content are protected. You may share content for awareness provided you credit Bharat Goal.</li>
+                            <li><strong>Limitation of Liability:</strong> Bharat Goal provides information "as is" and is not liable for external links or third-party content.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-slate-100 mt-24">
+        <div class="max-w-6xl mx-auto px-4 py-12 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+            <div class="text-xs text-slate-400 font-medium">© 2026 Bharat Goal Awareness Initiative. All rights reserved.</div>
+            <div class="flex space-x-6">
+                <a href="#" onclick="showSection('legal')" class="text-xs text-slate-500 hover:text-emerald-600 transition">Privacy</a>
+                <a href="#" onclick="showSection('legal')" class="text-xs text-slate-500 hover:text-emerald-600 transition">Terms</a>
+                <a href="#" onclick="showSection('support')" class="text-xs text-slate-500 hover:text-emerald-600 transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showSection(id) {
+            document.querySelectorAll('.tab-content').forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+            
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if(link.innerText.toLowerCase().includes(id) || (id === 'home' && link.innerText === 'Home')) {
+                    link.classList.add('active');
+                }
+            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
